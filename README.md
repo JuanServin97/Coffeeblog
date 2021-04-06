@@ -20,4 +20,4 @@ Objetivo del repositorio
 
 ** ESTE PROYECTO ESTA ALOJADO EN EL SIGUIENTE LINK **
 
-https://proyecto10.netlify.app/
+https://proyecto10.netlify.app/ o https://juanservin97.github.io/Coffeeblog/
