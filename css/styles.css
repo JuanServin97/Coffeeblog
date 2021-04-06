@@ -44,6 +44,7 @@ h2,
 h3,
 h4 {
     font-family: var(--fuenteHeading);
+    line-height: 1.2;
 }
 
 h1 {
@@ -140,8 +141,8 @@ img {
     background-color: var(--negro);
 }
 
-.btn-secundario {
-    background-color: #784d3c;
+.boton--secundario {
+    background-color: var(--primario);
 }
 
 
@@ -229,46 +230,34 @@ img {
     margin-bottom: 0;
 }
 
-/** Opcional **/
+/**Sidebar**/
 
-.entrada-blog {
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #e1e1e1;
-}
-
-.entrada-blog:last-of-type {
-    border: none;
-}
-
-
-/** Cursos Sidebar**/
-
-.cursos-lista {
-    padding: 0;
+.cursos {
     list-style: none;
 }
 
-.curso {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid #e1e1e1;
+.widget-curso{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
 }
 
-.curso:last-of-type {
+.widget-curso__label:last-of-type{
     border: none;
+    margin-bottom: 0;
 }
 
-.curso p {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
+.widget-curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.widget-curso__info{
+    font-weight: normal;
+}
+
+.widget-curso__label,.widget-curso__info{
     font-size: 2rem;
 }
-
-.curso p span,
-.curso p.descripcion {
-    font-weight: 400;
-}
-
 
 /** Footer **/
 
